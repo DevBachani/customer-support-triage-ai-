@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "expected_category": "Delivery",
+    "expected_priority": "P1"
+  },
+  {
+    "id": 2,
+    "expected_category": "Billing",
+    "expected_priority": "P0"
+  },
+  {
+    "id": 3,
+    "expected_category": "Product Inquiry",
+    "expected_priority": "P3"
+  },
+  {
+    "id": 4,
+    "expected_category": "Account",
+    "expected_priority": "P2"
+  },
+  {
+    "id": 5,
+    "expected_category": "Refund",
+    "expected_priority": "P2"
+  },
+  {
+    "id": 6,
+    "expected_category": "Spam",
+    "expected_priority": "P3"
+  },
+  {
+    "id": 7,
+    "expected_category": "Technical Support",
+    "expected_priority": "P2"
+  },
+  {
+    "id": 8,
+    "expected_category": "Complaint",
+    "expected_priority": "P2"
+  },
+  {
+    "id": 9,
+    "expected_category": "General Inquiry",
+    "expected_priority": "P3"
+  },
+  {
+    "id": 10,
+    "expected_category": "Delivery",
+    "expected_priority": "P1"
+  },
+  {
+    "id": 11,
+    "expected_category": "Billing",
+    "expected_priority": "P2"
+  },
+  {
+    "id": 12,
+    "expected_category": "Account",
+    "expected_priority": "P0"
+  },
+  {
+    "id": 13,
+    "expected_category": "Technical Support",
+    "expected_priority": "P0"
+  },
+  {
+    "id": 14,
+    "expected_category": "Other",
+    "expected_priority": "P3"
+  },
+  {
+    "id": 15,
+    "expected_category": "Account",
+    "expected_priority": "P2"
+  },
+  {
+    "id": 16,
+    "expected_category": "Complaint",
+    "expected_priority": "P0"
+  },
+  {
+    "id": 17,
+    "expected_category": "Product Inquiry",
+    "expected_priority": "P3"
+  },
+  {
+    "id": 18,
+    "expected_category": "Spam",
+    "expected_priority": "P0"
+  },
+  {
+    "id": 19,
+    "expected_category": "General Inquiry",
+    "expected_priority": "P3"
+  },
+  {
+    "id": 20,
+    "expected_category": "Technical Support",
+    "expected_priority": "P1"
+  }
+]

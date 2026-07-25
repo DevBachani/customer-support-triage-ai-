@@ -1,0 +1,116 @@
+(my_env) PS C:\gateway_assignment> python evaluation/evaluate.py
+Starting Evaluation Run (5 messages)...
+
+Evaluating Message ID 1 (processing via Llama 3.1)...
+
+[dim]Model is writing: [/dim]{
+  "category": "Delivery",
+  "priority": "P1",
+  "summary": "Order #1234 has not arrived after two weeks.",
+  "suggested_action": "Investigate delivery status and contact customer if necessary.",
+  "summary": "Order #1234 has not arrived after two weeks.",
+  "suggested_action": "Investigate delivery status and contact customer if necessary.",
+  "confidence": 0.95,
+  "needs_human": false,
+  "escalation_reason": null
+}
+
+Evaluating Message ID 2 (processing via Llama 3.1)...
+
+[dim]Model is writing: [/dim]```json
+{
+  "summary": "Order #1234 has not arrived after two weeks.",
+  "suggested_action": "Investigate delivery status and contact customer if necessary.",
+  "confidence": 0.95,
+  "needs_human": false,
+  "escalation_reason": null
+  "suggested_action": "Investigate delivery status and contact customer if necessary.",
+  "confidence": 0.95,
+  "needs_human": false,
+  "escalation_reason": null
+}
+
+Evaluating Message ID 2 (processing via Llama 3.1)...
+
+[dim]Model is writing: [/dim]```json
+}
+
+Evaluating Message ID 2 (processing via Llama 3.1)...
+
+[dim]Model is writing: [/dim]```json
+
+[dim]Model is writing: [/dim]```json
+{
+  "category": "Billing",
+  "priority": "P1",
+  "summary": "Duplicate charge on recent order, threatening to contact lawyer if not resolved.",  
+  "suggested_action": "Immediately investigate and correct duplicate charge, provide resolution de  "suggested_action": "Immediately investigate and correct duplicate charge, provide resolution details to customer.",
+  "confidence": 0.95,
+  "suggested_action": "Immediately investigate and correct duplicate charge, provide resolution details to customer.",
+  "confidence": 0.95,
+  "needs_human": true,
+  "escalation_reason": "Threats"
+}
+```
+
+Evaluating Message ID 3 (processing via Llama 3.1)...
+  "confidence": 0.95,
+  "needs_human": true,
+  "escalation_reason": "Threats"
+}
+```
+
+Evaluating Message ID 3 (processing via Llama 3.1)...
+```
+
+Evaluating Message ID 3 (processing via Llama 3.1)...
+
+Evaluating Message ID 3 (processing via Llama 3.1)...
+Evaluating Message ID 3 (processing via Llama 3.1)...
+
+[dim]Model is writing: [/dim]{
+  "category": "Product Inquiry",
+  "priority": "P3",
+  "summary": "Inquiry about color options for new Pro model",
+  "suggested_action": "Provide information on available colors and product specifications",       
+  "confidence": 0.95,
+  "needs_human": false,
+  "escalation_reason": null
+}
+
+Evaluating Message ID 4 (processing via Llama 3.1)...
+
+[dim]Model is writing: [/dim]{
+  "category": "Account",
+  "priority": "P2",
+  "summary": "Customer is unable to access their invoices due to forgotten password.",
+  "suggested_action": "Reset password or assist with account recovery process.",
+  "confidence": 0.95,
+  "needs_human": false,
+  "escalation_reason": null
+}
+
+Evaluating Message ID 5 (processing via Llama 3.1)...
+
+[dim]Model is writing: [/dim]{
+  "category": "Delivery",
+  "priority": "P2",
+  "summary": "Monitor screen arrived cracked, requesting return label.",
+  "suggested_action": "Provide return shipping label and initiate RMA process.",
+  "confidence": 0.95,
+  "needs_human": false,
+  "escalation_reason": null
+}
+
+──────────────────────────────────── Final Evaluation Metrics ────────────────────────────────────
+Category Accuracy: 80.0%
+Priority Accuracy: 80.0%
+Average Latency:   257.46 seconds/message
+
+ ID  Cat Match  Pri Match  Latency(s)  Needs Human
+  1       True       True      267.49        False
+  2       True      False      303.76         True
+  3       True       True      217.92        False
+  4       True       True      189.65        False
+  5      False       True      308.47        False
+(my_env) PS C:\gateway_assignment>    

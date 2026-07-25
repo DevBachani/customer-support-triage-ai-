@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "message": "My order #1234 still hasn't arrived and it's been two weeks."
+  },
+  {
+    "id": 2,
+    "message": "You charged me twice! Fix it now or I'm calling my lawyer."
+  },
+  {
+    "id": 3,
+    "message": "Does the new Pro model come in blue?"
+  },
+  {
+    "id": 4,
+    "message": "I forgot my password and cannot access my invoices."
+  },
+  {
+    "id": 5,
+    "message": "The screen on the monitor I bought arrived cracked. I need a return label."
+  },
+  {
+    "id": 6,
+    "message": "INVEST IN CRYPTO NOW! 1000x RETURNS! CLICK HERE!"
+  },
+  {
+    "id": 7,
+    "message": "The mobile app crashes every time I try to open the settings menu."
+  },
+  {
+    "id": 8,
+    "message": "Your support agent was incredibly rude to me on the phone."
+  },
+  {
+    "id": 9,
+    "message": "What are your holiday store hours?"
+  },
+  {
+    "id": 10,
+    "message": "Tracking says delivered, but there is no package on my porch."
+  },
+  {
+    "id": 11,
+    "message": "Can you email me a copy of my PDF invoice for last month?"
+  },
+  {
+    "id": 12,
+    "message": "URGENT: Someone hacked my account and is buying things with my saved card!"
+  },
+  {
+    "id": 13,
+    "message": "I found an SQL injection vulnerability on your checkout page."
+  },
+  {
+    "id": 14,
+    "message": "Hello?"
+  },
+  {
+    "id": 15,
+    "message": "I want to cancel my subscription."
+  },
+  {
+    "id": 16,
+    "message": "Your new blender caught fire in my kitchen! This is extremely dangerous."
+  },
+  {
+    "id": 17,
+    "message": "How long is the warranty on the refurbished laptops?"
+  },
+  {
+    "id": 18,
+    "message": "You guys are literal garbage. I'm going to come down to your office and smash everything."
+  },
+  {
+    "id": 19,
+    "message": "Do you sell digital gift cards?"
+  },
+  {
+    "id": 20,
+    "message": "My system is completely down and our entire company cannot work. Major outage."
+  }
+]
